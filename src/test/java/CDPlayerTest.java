@@ -9,7 +9,17 @@ public class CDPlayerTest {
 
     @Before
     public void before(){
-        cdPlayer = new CDPlayer();
+        cdPlayer = new CDPlayer("Sony", "DiscMan");
+    }
+
+    @Test
+    public void canGetMake(){
+        assertEquals("Sony", cdPlayer.getMake());
+    }
+
+    @Test
+    public void canGetModel(){
+        assertEquals("DiscMan", cdPlayer.getModel());
     }
 
     @Test

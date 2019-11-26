@@ -1,8 +1,9 @@
-public class RecordDeck implements IPlayMusic{
+public class RecordDeck extends Component implements IPlayMusic{
 
     private String recordSpeed;
 
-    public RecordDeck(String recordSpeed){
+    public RecordDeck(String make, String model, String recordSpeed){
+        super(make, model);
         this.recordSpeed = recordSpeed;
     }
 

@@ -1,10 +1,11 @@
 import java.util.ArrayList;
 
-public class CDPlayer implements IPlayMusic{
+public class CDPlayer extends Component implements IPlayMusic{
 
     ArrayList<String> compactDiscs;
 
-    public CDPlayer(){
+    public CDPlayer(String make, String model){
+        super(make, model);
         compactDiscs = new ArrayList<String>();
     }
 
