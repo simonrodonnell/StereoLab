@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5333519-6c4f-42a4-8860-5b4954908f46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IPod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IPodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StereoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CDPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CDPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecordDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecordDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CDPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CDPlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RecordDeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RecordDeckTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,61 +43,63 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CDPlayerTest">
-    <configuration name="CDPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IPodTest.canConnect">
+    <configuration name="IPodTest.canConnect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StereoLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CDPlayerTest" />
+      <option name="MAIN_CLASS_NAME" value="IPodTest" />
+      <option name="METHOD_NAME" value="canConnect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StereoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StereoLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StereoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CDPlayerTest.canPlaySong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StereoTest.canAddCD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StereoLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CDPlayerTest" />
+      <option name="MAIN_CLASS_NAME" value="StereoTest" />
+      <option name="METHOD_NAME" value="canAddCD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StereoTest.canPlaySong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StereoLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StereoTest" />
       <option name="METHOD_NAME" value="canPlaySong" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CDPlayerTest.cannotPlaySong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StereoTest.canTuneRadio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StereoLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CDPlayerTest" />
-      <option name="METHOD_NAME" value="cannotPlaySong" />
+      <option name="MAIN_CLASS_NAME" value="StereoTest" />
+      <option name="METHOD_NAME" value="canTuneRadio" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StereoLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecordDeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StereoLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RecordDeckTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CDPlayerTest" />
-        <item itemvalue="JUnit.RecordDeckTest" />
-        <item itemvalue="JUnit.RadioTest" />
-        <item itemvalue="JUnit.CDPlayerTest.canPlaySong" />
-        <item itemvalue="JUnit.CDPlayerTest.cannotPlaySong" />
+        <item itemvalue="JUnit.IPodTest.canConnect" />
+        <item itemvalue="JUnit.StereoTest" />
+        <item itemvalue="JUnit.StereoTest.canTuneRadio" />
+        <item itemvalue="JUnit.StereoTest.canAddCD" />
+        <item itemvalue="JUnit.StereoTest.canPlaySong" />
       </list>
     </recent_temporary>
   </component>
